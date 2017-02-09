@@ -174,9 +174,9 @@
 
         document.getElementById('chkCorrect').setAttribute("title", $("#labBudgetSummary").text().replace("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", ""));
         document.getElementById('chkCorrect').setAttribute("tabIndex", 10);
-		document.getElementById('chkCorrect').accessKey = "c";
-		
-		$("form:first *:input[type!=hidden]:first").focus();
+        document.getElementById('chkCorrect').accessKey = "c";
+
+        $("form:first *:input[type!=hidden]:first").focus();
     }
 
     function initDPAVerficationAccessibility() {
